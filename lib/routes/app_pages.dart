@@ -7,7 +7,11 @@ import 'package:getx/routes/app_routes.dart';
 
 class AppPages {
   static final routes = [
-    GetPage(name: AppRoutes.home, page: () => HomePage(), binding: HomeBinding()),
+    GetPage(
+      name: AppRoutes.home,
+      page: () => HomePage(),
+      binding: HomeBinding(),
+    ),
     GetPage(name: AppRoutes.second, page: () => SecondPage()),
     GetPage(name: AppRoutes.third, page: () => ThirdPage()),
   ];

@@ -36,7 +36,10 @@ class SecondPage extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             ElevatedButton(
-              onPressed: () => Get.toNamed(AppRoutes.third, arguments: controller.counter.value),
+              onPressed: () => Get.toNamed(
+                AppRoutes.third,
+                arguments: controller.counter.value,
+              ),
               child: const Text('Kirim Nilai ke Halaman Ketiga'),
             ),
           ],

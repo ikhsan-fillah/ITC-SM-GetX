@@ -7,5 +7,5 @@ class CounterController extends GetxController {
   //logika: method untuk mengubah state
   void increment() => counter.value++;
   void decrement() => counter.value--;
-  void reset() => counter.value=0;
+  void reset() => counter.value = 0;
 }

@@ -9,8 +9,9 @@ class ThirdPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Column(
+    return Scaffold(
+      appBar: AppBar(title: const Text("Dashboard"), actions: const []),
+      body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text('Nilai yang dikirim dari halaman kedua:'),
